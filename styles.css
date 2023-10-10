@@ -1,0 +1,164 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('netback.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.featured {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem;
+}
+
+.featured h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.categories {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+}
+
+.categories h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.genre-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.genre-card {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.genre-card img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.genre-card h3 {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.genre-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
